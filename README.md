@@ -55,10 +55,10 @@ IE 11  | Firefox 36 | Chrome 41 | Safari 8
 
 ### Contributing
 
-Pull requests are welcome! Create another file in `src/animations`
-and load it in `src/loader.scss`.
+Pull requests are welcome! Create another file in `files/animations`
+and load it in `file/loader.scss`.
 
-In a separate tab run the code to see you change. Open `demo/demo.html`
+In a separate tab run the code to see you change. Open `index.html`
 in a browser to see your animation running.
 
 
