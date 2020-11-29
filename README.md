@@ -27,7 +27,7 @@ git clone https://github.com/Sd-Shivam/--Cool_Css3_loaders.git
 ```
 
 ```
-index.html
+open index.html
 ```
 
 ```
