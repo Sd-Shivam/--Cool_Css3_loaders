@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 5
+--------------------------------------------------------------------------------------*/
+
+.cube-2{
+	width:50px;
+	height:50px;
+	transform: rotate(45deg);
+	position:relative;
+	margin:auto;
+}
+
+.cube-2 .layer-1{
+	position:absolute;
+	width:20px;
+	height:20px; 
+	top:0px;
+	left:0px;
+	border-radius:2px;
+	animation: cube11 2s ease-in-out infinite ; 
+}
+.cube-2 .layer-2{
+	position:absolute;
+	width:20px;
+	height:20px; 
+	top:0px;
+	right:0px;
+	border-radius:2px;	
+	animation: cube12 2s ease-in-out infinite ; 
+}
+.cube-2 .layer-3{
+	position:absolute;
+	width:20px;
+	height:20px; 
+	bottom:0px;
+	right:0px;
+	border-radius:2px;	
+	animation: cube13 2s ease-in-out infinite ; 
+}
+.cube-2 .layer-4{
+	position:absolute;
+	width:20px;
+	height:20px; 
+	bottom:0px;
+	left:0px;
+	border-radius:2px;	
+	animation: cube14 2s ease-in-out infinite ; 
+}
+@keyframes cube11 {
+
+	25%{ left:30px; top:0px;}
+	50%{ top:30px; left:30px;}
+	75%{ top:30px; left:0px;}
+	100%{ left:0px; top:0px;}
+}
+@keyframes cube12 {
+
+	25%{ top:30px; right:0px;}
+	50%{ top:30px; right:30px;}
+	75%{ top:0px; right:30px;}
+	100%{ top:0px; right:0px;}
+}
+@keyframes cube13 {
+
+	25%{ bottom:0px; right:30px;}
+	50%{ bottom:30px; right:30px;}
+	75%{ bottom:30px; right:0px;}
+	100%{ bottom:0px; right:0px;}
+}
+@keyframes cube14 {
+
+	25%{ bottom:30px; left:0px;}
+	50%{ bottom:30px; left:30px;}
+	75%{ bottom:0px; left:30px;}
+	100%{ bottom:0px; left:0px;}
+}

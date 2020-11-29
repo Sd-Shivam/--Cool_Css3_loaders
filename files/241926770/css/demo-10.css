@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 10
+--------------------------------------------------------------------------------------*/
+.graph{
+	width:108px;
+	margin:auto;
+	height:50px;
+	position:relative;
+}
+.graph .layer{
+	position:absolute;
+	bottom:0px;
+	width:20px;
+	top:45px;
+}
+.graph .layer-1{
+	left:0px;
+	top:30px;
+	animation: graph1 1s infinite; 	
+}
+.graph .layer-2{
+	left:22px;
+	top:10px;
+	animation: graph2 1s infinite; 
+}
+.graph .layer-3{
+	left:44px;
+	top:20px;
+	animation: graph3 1s infinite; 
+}
+.graph .layer-4{
+	left:66px;
+	top:30px;
+	animation: graph4 1s infinite; 	
+}
+.graph .layer-5{
+	left:88px;
+	animation: graph5 1s infinite; 
+}
+
+@keyframes graph1 {
+	20%{ top:0px; }
+	80%{ top:30px; }
+}
+@keyframes graph2 {
+	30%{ top:0px; }
+	80%{ top:10px; }
+}
+@keyframes graph3{
+	40%{ top:0px; }
+	80%{ top:20px; }
+}
+@keyframes graph4{
+	50%{ top:0px; }
+	80%{ top:30px; }
+}
+@keyframes graph5{
+	60%{ top:0px; }
+	80%{ top:45px; }
+}

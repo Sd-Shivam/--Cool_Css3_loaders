@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 7
+--------------------------------------------------------------------------------------*/
+
+.vertical-bars-1{
+	width:85px;
+	height:50px;
+	position:relative;
+	margin:auto;
+	
+}
+.vertical-bars-1 div{
+	position:absolute;
+	width:5px;
+	height:20px;
+	top:15px;
+	border-radius:3px;
+}
+.vertical-bars-1 .layer-1{
+	left:0px;
+	animation: verticalbar1 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-2{
+	left:10px;
+	animation: verticalbar2 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-3{
+	left:20px;
+	animation: verticalbar3 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-4{
+	left:30px;
+	animation: verticalbar4 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-5{
+	left:40px;
+	animation: verticalbar5 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-6{
+	left:50px;
+	animation: verticalbar6 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-8{
+	left:60px;
+	animation: verticalbar7 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-9{
+	left:70px;
+	animation: verticalbar8 1s ease-in-out infinite; 
+}
+.vertical-bars-1 .layer-10{
+	left:80px;
+	animation: verticalbar9 1s ease-in-out infinite; 
+}
+@keyframes verticalbar1 {
+	10%{ top:0px ; height:50px; }
+	30%{ top:15px ; height:20px; }
+}
+@keyframes verticalbar2 {
+	20%{ top:0px ; height:50px; }
+	40%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar3 {
+	30%{ top:0px ; height:50px; }
+	50%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar4 {
+	40%{ top:0px ; height:50px; }
+	60%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar5 {
+	50%{ top:0px ; height:50px; }
+	70%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar6 {
+	60%{ top:0px ; height:50px; }
+	80%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar7 {
+	70%{ top:0px ; height:50px; }
+	90%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar8 {
+	80%{ top:0px ; height:50px; }
+	100%{ top:15px ; height:20px; }	
+}
+@keyframes verticalbar9 {
+	90%{ top:0px ; height:50px; }
+	10%{ top:15px ; height:20px; }	
+}

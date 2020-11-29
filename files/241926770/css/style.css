@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,800);
+body{ 
+	background-color:#FFF;
+	font-family: "Open Sans";  
+	text-align:center;
+	color:#3a4652;
+	background-color:#e5e9ec;
+	padding:30px 0px;
+}
+.overlay{
+	position:fixed;
+	z-index:100;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#FFF;
+	padding-top: calc(45vh - 50px);
+}
+a,a:hover.a:focus{
+	color:inherit;
+}
+pre{
+	text-align:left;
+	max-width:700px;
+	margin:5px auto;
+	background-color:#FFF;
+	padding:0px 20px;
+	border-radius:5px;
+}
+pre xmp{
+	margin:0px;
+}
+iframe{
+	clear:both;
+	width:100%;
+	max-width:740px;
+	border:none;
+	margin:10px 0px;
+	
+}
+h1{
+	margin:10px 0px;	
+}
+p{
+	font-size:13px;
+}
+.container{
+	max-width:1200px;
+	margin:auto;
+}
+.column{
+	width:23%;
+	float:left;
+	padding:75px 0px;
+	background-color:#FFF;
+	margin:1%;
+	border-bottom:3px solid rgba(0,0,0,0.2);
+	position:relative;
+	min-height:50px;
+}
+.serial-number{
+	position:absolute;
+	font-size:25px;
+	font-weight:bold;
+	top:5px;
+	left:10px;
+	opacity:0.2;
+}
+.clear{
+	clear:both;
+}
+/*--------------------------------------------------------------------------------------
+COLORS 
+--------------------------------------------------------------------------------------*/
+.color-1{
+	background-color:#1ba490 !important;
+}
+.color-2{
+	background-color:#3a4652 !important;
+}
+/*--------------------------------------------------------------------------------------
+MEDIA QUERY TO GET RESPONSIVE
+--------------------------------------------------------------------------------------*/
+
+@media (min-width:500px) and (max-width:800px){
+	.column{ 
+		width:48%;
+	}
+}
+@media (min-width:0px) and (max-width:500px){
+	.column{ 
+		width:98%;
+	}
+}

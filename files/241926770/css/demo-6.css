@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 6
+--------------------------------------------------------------------------------------*/
+
+.horizontal-bars-1{
+	position:relative;
+	width:50px;
+	height:50px;
+	margin:auto;
+}
+.horizontal-bars-1 .layer-1{
+	position:absolute;
+	height:8px;
+	top:21px;
+	left:0px;
+	right:0px;
+	border-radius:4px;
+	animation: horizontalbartoright1 1s ease-in-out infinite; 
+}
+.horizontal-bars-1 .layer-2{
+	position:absolute;
+	height:8px;
+	top:30px;
+	left:0px;
+	right:0px;
+	border-radius:4px;
+	animation: horizontalbartoleft1 1s ease-in-out infinite; 
+}
+.horizontal-bars-1 .layer-3{
+	position:absolute;
+	height:8px;
+	top:39px;
+	left:0px;
+	right:0px;
+	border-radius:4px;
+	animation: horizontalbartoright2 1s ease-in-out infinite; 
+}
+.horizontal-bars-1 .layer-4{
+	position:absolute;
+	height:8px;
+	top:48px;
+	left:0px;
+	right:0px;
+	border-radius:4px;
+	animation: horizontalbartoleft2 1s ease-in-out infinite; 
+}
+@keyframes horizontalbartoright1 {
+	20%{ right:-10px }
+}
+@keyframes horizontalbartoleft1 {
+	40%{ left:-10px  }
+}
+@keyframes horizontalbartoright2 {
+	65%{ right:-10px;}
+}
+@keyframes horizontalbartoleft2 {
+	80%{ left:-10px  }
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 13
+--------------------------------------------------------------------------------------*/
+.circle-to-square{
+	position:relative;
+	margin:auto;
+	width:50px;
+	height:50px;
+}
+.circle-to-square .layer{
+	width:40px;
+	height:40px;
+	border:5px solid transparent;
+	border-left-color:#1ba490;
+	border-top-color:#1ba490;
+	border-right-color:#3a4652;
+	border-bottom-color:#3a4652;	
+	border-radius:50%;
+	transform:rotate(45deg);
+	animation: circletosquare 2s infinite; 
+}
+@keyframes circletosquare{
+	50%{ transform:rotate(360deg);  border-width:25px; width:0px; height:0px; border-radius:0px;}
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 4
+--------------------------------------------------------------------------------------*/
+.loader{
+	position:relative;
+	margin:auto;
+	width:50px;
+	height:50px;
+}
+
+.cogs-1{
+	width:50px;
+	height:50px;
+}
+.cogs-1 .layer-1{
+	position:absolute;
+	font-size:35px;
+	top:-12px;
+	left:-8px;
+	color:#1ba490;
+	animation: loader9 1s infinite linear; 
+	width:35px;
+	text-align:center;
+	height:35px;
+}
+.cogs-1 .layer-2{
+	position:absolute;
+	font-size:50px;
+	right:-12px;
+	animation: loader10 1s infinite linear; 
+	text-align:center;	
+	height:50px;
+	width:50px;
+
+}
+.cogs-1 .layer-3{
+	position:absolute;
+	font-size:35px;
+	bottom:-14px;
+	left:-8px;
+	text-align:center;	
+	color:#1ba490;
+	animation: loader9 1s infinite linear; 
+	width:35px;
+	height:35px;
+}
+@keyframes loader9 {
+	100% {  transform: rotate(-180deg); }  
+}
+
+@keyframes loader10 {
+	100% {  transform: rotate(180deg); }  
+}

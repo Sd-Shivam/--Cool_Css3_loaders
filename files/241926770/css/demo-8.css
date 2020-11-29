@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 8
+--------------------------------------------------------------------------------------*/
+.refresh{
+	width:50px;
+	height:50px;
+	margin:auto;
+	position:relative;
+}
+.refresh .fa{
+	width:40px;
+	height:40px;
+	font-size:40px;
+	animation: refresh 1s infinite; 
+
+}
+@keyframes refresh {
+	50%{ color:#1ba490;}
+	100%{ transform:rotate(-360deg);}
+	
+}

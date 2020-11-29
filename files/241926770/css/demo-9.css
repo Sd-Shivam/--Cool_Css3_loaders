@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 9
+--------------------------------------------------------------------------------------*/
+.battery{
+	width:65px;
+	margin:auto;
+	position:relative;
+}
+.battery .fa{
+	font-size:50px;
+}
+.battery .layer{
+	position:absolute;
+	top:12px;
+	width:8px;
+	height:25px;
+}
+
+.battery .layer-1{
+	left:6px; 	
+	animation: charge1 2s infinite; 
+
+}
+.battery .layer-2{
+	left:16px; 	
+	animation: charge2 2s infinite; 
+}
+.battery .layer-3{
+	left:26px; 	
+	animation: charge3 2s infinite; 
+}
+.battery .layer-4{
+	left:36px; 	
+	animation: charge4 2s infinite; 
+}
+.battery .layer-5{
+	left:46px; 
+	animation: charge5 2s infinite; 	
+}
+
+@keyframes charge1 {
+	10%{ opacity:0; }
+	25%{ opacity:1; }
+
+}
+@keyframes charge2 {
+	25%{ opacity:0; }
+	40%{ opacity:1; }
+}
+@keyframes charge3 {
+	40%{ opacity:0; }
+	55%{ opacity:1; }
+}
+@keyframes charge4 {
+	55%{ opacity:0; }
+	70%{ opacity:1; }
+}
+@keyframes charge5 {
+	70%{ opacity:0; }
+	85%{ opacity:1; }
+}

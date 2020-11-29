@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 3
+--------------------------------------------------------------------------------------*/
+.cube-1{
+	width:105px;
+	height:50px;
+	margin:auto;
+	position:relative;
+}
+.cube-1 .layer-1,.cube-1 .layer-2,.cube-1 .layer-3,.cube-1 .layer-4{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:15px;
+	border-radius:2px;
+}
+.cube-1 .layer-1{
+	left:5px;
+	animation: cube1 1s ease-in-out infinite alternate; 
+}
+.cube-1 .layer-2{
+	left:30px;
+	animation: cube2 1s ease-in-out infinite alternate; 
+}
+.cube-1 .layer-3{
+	left:55px;
+	animation: cube1 1s ease-in-out infinite alternate; 
+}
+.cube-1 .layer-4{
+	left:80px;
+	animation: cube2 1s ease-in-out infinite alternate; 
+}
+
+@keyframes cube1 {
+	0% {  transform: rotate(-180deg); }  
+    100% {  opacity:0.5;}
+}
+
+@keyframes cube2 {
+	0% {  opacity:0.5; }  
+    100% {transform: rotate(-180deg);  }
+}

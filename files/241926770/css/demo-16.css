@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 16
+--------------------------------------------------------------------------------------*/
+.revolve{
+	width:50px;
+	height:50px;
+	position:relative;
+	margin:auto;
+}
+.revolve .layer{
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	bottom:-15px;
+	right:-15px;
+	border:1px solid #CCC;
+	border-radius:50%;
+	animation: revolve1 2s infinite linear; 
+}
+.revolve .round{
+	width:0px;
+	height:0px;
+	background-color:#3a4652;
+	border-radius:50%;
+	border:12.5px solid #3a4652;
+	border-top-color:#1ba490;
+	border-right-color:#1ba490;
+	animation: revolve2 2s infinite linear; 
+
+}
+
+@keyframes revolve1{
+	100%{ transform:rotate(360deg);}
+}
+@keyframes revolve2{
+	100%{ transform:rotate(360deg);}
+}

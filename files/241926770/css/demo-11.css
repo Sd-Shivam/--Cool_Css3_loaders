@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------------------------------------------------------------
+LOADER 11
+--------------------------------------------------------------------------------------*/
+.globe{
+	width:200px !important;
+	border-radius:50%;
+	border:1px solid #DDD;
+	transform:rotate(-15deg);
+	margin:auto;
+	margin-top:2px;
+	height:43px;
+	position:relative;
+	
+}
+.globe .fa{
+	position:absolute;
+	width:30px;
+	height:30px;
+	font-size:30px;
+	top:-12px;
+	left:85px;
+	color:#3a4652;
+	animation: globe 2s infinite linear; 
+}
+@keyframes globe{
+	5%{ left:105px; top:-11px}
+	10%{left:125px; top:-9px}
+	15%{ left:145px; top:-6px}
+	20%{ left:165px; top:-2px}
+	25%{ left:185px; top:10px; }
+	30%{ left 165px; top:22px}
+	35%{ left:145px;  top:28px;}
+	40%{ left:125px; top:31px;}
+	45%{ left:105px; top:32px}
+	50%{ left:85px; top:32px;}
+	55%{ left:65px; top:32px;}
+	60%{ left:45px; top:31px;}
+	65%{ left:25px; top:28px;}
+	70%{ left:5px; top:22px; }
+	75%{ left:-15px; top:10px;}
+	80%{ left:5px; top:-2px }
+	85%{ left:25px; top:-6px; }
+	90%{ left:46px; top:-9px; }
+	95%{ left:65px; top:-11px; }
+	100%{left:85px; top:-12px;}
+	
+	
+}
